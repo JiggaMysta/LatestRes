@@ -19,43 +19,30 @@
         <ul> 
             <header>          
 
-                <h2>JONGISIZWE BAARTMAN</h2>
-                <img src="image/Sizwe.jpeg" alt="Sizwe" width="200" height="200">
+                <h2 class="display-2">JONGISIZWE BAARTMAN</h2>
+                <img src="image/Sizwe.jpeg" class="float-centre">
                 <h3 class="mx">Introduction to my personal information</h3> 
-                <div class="background-image"></div>
+                <div class="background-image">
                 <div class="container-fluid">
-                    <!--Header here-->
                   </div>
+                </div>
                 </header>             
         </ul> 
  <main>  
-   <div class="w3-container w3-animate-fading" id="sidebar">
-    <nav>
-        <h4>MENU</h4>
-          
-        <ul class="nav-menu">
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
-    </nav>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-    </li>
-
-
-   </div>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>  
+    </div>
   </div> 
 </div>
 
     <ul> 
-
-            <u><div class="w3-container" id="education">EDUCATION</h4></u> 
+        
+            <u><h4><div class="w3-container" id="education">EDUCATION</h4></u> 
         
             <li><P><h4>Intro to Web at CodeSpace</h4></P></li>
             <li>Introduction to web development, complete course on HTML and CSS</li>
@@ -67,7 +54,7 @@
             <br>
             
         
-          <u><div class="w3-container" id="experience">EXPERIENCE</h4></u>
+          <u><h4><div class="w3-container" id="experience">EXPERIENCE</h4></u>
       
           <li>For a long period of time (9 years) I have worked as a door man (security) in Clubs specifically Mavericks in the CBD, St Eve's, The bungalouw, Shimmy Beach Club, Club 31 (Absa building)</li> 
           <li>Worked as an Estate agent at Chas Everitt Kuilsriver, that is were I acquired my marketing skills in property.I worked there for 2years from 2018-01 till 2020-01</li> 
@@ -75,7 +62,7 @@
             </div>
           <br>
       
-          <u><div class="w3-container" id="skills">SKILLS</h4></u> 
+          <u><h4><div class="w3-container" id="skills">SKILLS</h4></u> 
       
           <li>Customer relation</li>
           <li>Microsoft Office</li>
@@ -86,10 +73,12 @@
     </main> 
 </div>
 </div> 
-<footer class="container">
-    <div class="jumbotron text-center" style="margin:0">
+<footer class="page-container">
+    <div class="jumbotron text-center" style="margin:0" id="content-wrap">
     <div class="row">
         <div class="col-dm-6">
+            <!--all other page content-->
+            <footer id="footer"></footer>
     <ul>
         <u><h4 class="Contact details">CONTACT DETAILS</u></h4>
 
@@ -103,7 +92,11 @@
 <a href="http://www.facebook.com/jbaartman1" target=blank class="fa fa-facebook" style="font-size:large;"></a>
 <a href="https://www.linkedin.com/in/jongisizwe-baartman-0997b321/" target=blank class="fa fa-linkedin" style="font-size:large;"></a>
  
-    </div> 
+ </div> 
+    </div>
+      </div>
+    
+    
 </ul>
  </footer>
     </body>
